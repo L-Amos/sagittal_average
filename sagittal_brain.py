@@ -2,6 +2,17 @@ from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 
 import numpy as np
 
+"""baef87988e0e44ac753987206ae80b65fa3a906e is the first bad commit
+commit baef87988e0e44ac753987206ae80b65fa3a906e (HEAD)
+Author: Charlene Bultoc <c.bultoc@neurolab.ac.uk>
+Date:   Sun Sep 29 05:35:31 2019 +0100
+
+    Uses numpy to calculate the average
+
+ sagittal_brain.py | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+"""
+
 
 def run_averages(file_input='brain_sample.csv', file_output='brain_average.csv'):
     """
